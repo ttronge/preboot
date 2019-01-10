@@ -2,17 +2,17 @@
 
 ### Code Ramp - Plataforma 5
 
-# Java Script Deep Dive
+# JavaScript Deep Dive
 
-En este modulo vamos a ver lo fundamentos sobre los que se basa JavaScript, con ellos vamos a ganar un mejor entendimiento del funcionamiento de las herramientas que el lenguaje nos provee.
+En este modulo vamos a ver los fundamentos sobre los que se basa JavaScript. Con ellos vamos a ganar un mejor entendimiento del funcionamiento de las herramientas que el lenguaje nos provee.
 
-Pero no solo vamos a trabajar con teoría, le vamos a agregar ejercicios para que ustedes hagan y puedan testear.
+Pero no sólo vamos a trabajar con teoría, le vamos a agregar ejercicios para que ustedes hagan y puedan testear.
 
 Los ejercicios van a estar planteados no como enunciados ordinarios, si no que van a obtener los objetivos de los ejercicios a partir de `tests`.
 
 ## Setup
 
-Primero que nada van a tener que hacer un `fork` de este repositorio subido a GitHub, un fork es una copia del repo entero pero bajo nuestro propio usuario, de esta manera podemos modificarlo a gusto sin repercutir en el original.
+Primero que nada van a tener que hacer un `fork` de este repositorio subido a GitHub. Un fork es una copia del repo entero pero bajo nuestro propio usuario, de esta manera podemos modificarlo a gusto sin repercutir en el original.
 
 Hagan click en el boton de `fork` arriba a la derecha.
 
