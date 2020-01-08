@@ -23,7 +23,7 @@ function bloque(){
     var nombre = 'Toni';
   }
 
-          if (true) {
+  if (true) {
     var nombre = 'Guille';
   }
   

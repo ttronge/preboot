@@ -36,8 +36,7 @@ describe('Propiedades de un object-literal', function() {
   Como sabemos los Arreglos también son Objetos, solo que son un caso particular de ellos,
   y por eso tienen algunas propiedades especiales.
   De todas maneras lo que sea que podemos hacer con Objetos lo podemos hacer con Arreglos.
-  */
-
+*/
 describe('Propiedades de un Objeto de tipo Arreglo', function() {
   var array;
 
@@ -69,11 +68,10 @@ describe('Propiedades de un Objeto de tipo Arreglo', function() {
 
 });
 
-
 /*
-  ¿Pensaron que pasa entonces con las funciones? Si, también son Objetos y tiene la posibilidad de usar todas sus propiedades.
+  ¿Pensaron que pasa entonces con las funciones? Si, también son Objetos y tiene la posibilidad
+  de usar todas sus propiedades.
 */
-
 describe('Propiedades en una Función', function() {
   var functionObject;
 

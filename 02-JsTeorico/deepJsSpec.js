@@ -8,11 +8,11 @@ describe('JavaScript teórico y su comportamiento', function() {
   describe('Scopes de función y bloque', function() {
 
     it('¿Qué tipo retorna la función scopes?', function() {
-      expect(typeof scopes()).toEqual("undefined");
+      expect(typeof scopes()).toEqual(/*RESPUESTA*/);
     });
     
     it('¿Qué valor retorna la función bloque?', function() {
-      expect(bloque()).toEqual("Guille");
+      expect(bloque()).toEqual(/*RESPUESTA*/);
     });
 
   });
@@ -20,15 +20,15 @@ describe('JavaScript teórico y su comportamiento', function() {
   describe('Precedencia y Asociatividad', function() {
 
     it('Triple igualdad',function() {
-      expect(igualdad()).toEqual(3);
+      expect(igualdad()).toEqual(/*RESPUESTA*/);
     });
 
     it('Doble comparación ordenada',function() {
-      expect(boolean(true)).toEqual(true);
+      expect(boolean(true)).toEqual(/*RESPUESTA*/);
     });
 
     it('Doble comparación desordenada',function() {
-      expect(boolean(false)).toEqual(true);
+      expect(boolean(false)).toEqual(/*RESPUESTA*/);
     })
   })
 });

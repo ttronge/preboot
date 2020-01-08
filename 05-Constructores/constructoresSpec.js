@@ -6,7 +6,7 @@ describe('Calculadora que use notación polaca inversa', function() {
   var calculadora;
 
   beforeEach(function() {
-    // Fijemonos cómo está invocada la función constructora, es un factory function?
+    // Fijemos nos como esta invocada la función constructora, es un factory function?
     calculadora = new CalculadoraNPI();
   });
 
@@ -55,7 +55,7 @@ describe('Calculadora que use notación polaca inversa', function() {
   it('Multiplicación y división', function() {
     // Infija: 2 * 3 / 4
     // Postfija: 2 3 4 / *
-    calculadora.agregar(2);
+    calculadoagregar(2);
     calculadora.agregar(3);
     calculadora.agregar(4);
     calculadora.dividir();

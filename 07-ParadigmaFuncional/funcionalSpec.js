@@ -1,3 +1,4 @@
+
 // En este modulo vamos a usar los conceptos Programacion Funcional para crear
 // funciones que iteren sobre distintas colecciones.
 

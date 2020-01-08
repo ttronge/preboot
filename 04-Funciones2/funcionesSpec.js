@@ -13,7 +13,7 @@ describe('La propiedad arguments', function() {
 
 // Vamos a trabar con los conceptos de que las funciones son objetos y los puedo
 // ir pasando entre scopes.
-// Para eso es que me sirve saber qué son `high-order functions`.
+// Para eso es que me sirve saber que son `high-order functions`.
 describe('higher-order functions', function() {
 
   var funcionParaInvocar = function() {
@@ -50,9 +50,12 @@ describe('creadorDeIncrementos', function() {
   });
 });
 
-// Cuando hablamos de `decorator functions` nos referimos a funciones que toman otras funciones para cambiar algunos de sus comportamientos y devolver una nueva version de estas,sin haber modificado la original.
-// En esta oportunidad vamos a tomar una funcion y asegurarnos que solo pueda correr una vez, no importa cuantas veces la llamemos.
+// Cuando hablamos de `decorator functions` nos referimos a funciones que toman otras funciones para
+// cambiar algunos de sus comportamientos y devolver una nueva version de estas, sin haber modificado
+// la original.
 
+// En esta oportunidad vamos a tomar una funcion y asegurarnos que solo pueda correr una vez, no
+// importa cuantas veces la llamemos.
 describe('invocacionUnica', function() {
   
   var incrementar, num;
@@ -95,10 +98,9 @@ describe('invocacionUnica', function() {
 });
 
 // Creemos una función que retorne un objeto con las propiedades descriptas más
-// abajo, ¿por qué usaríamos clousures para esto? porque no está permitido guardar
-// nada más que esos métodos.
+// abajo, ¿porque usaríamos clousures para esto? porque no esta permitido guardar
+// nada mas que esos métodos.
 // ¿Podríamos generar un entorno cerrado del cual leer y modificar información?
-
 describe('Contextos compartidos', function() {
   var obj;
 
