@@ -55,7 +55,7 @@ describe('Calculadora que use notación polaca inversa', function() {
   it('Multiplicación y división', function() {
     // Infija: 2 * 3 / 4
     // Postfija: 2 3 4 / *
-    calculadoagregar(2);
+    calculadora.agregar(2);
     calculadora.agregar(3);
     calculadora.agregar(4);
     calculadora.dividir();
