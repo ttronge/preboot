@@ -45,6 +45,11 @@ describe('creadorDeIncrementos', function() {
     var incrementaPor2 = creadorDeIncrementos(2);
     var incrementaPor7 = creadorDeIncrementos(7);
     // Ahora usemos esa función que creamos y tendria que incrementar por 2.
+    function creadorDeIncrementos (n) {
+      return  function (m){
+        return m + n
+      } 
+    }
     expect(incrementaPor2(5)).toEqual(7);
     expect(incrementaPor7(3)).toEqual(10);
   });
@@ -241,4 +246,20 @@ describe('La lista secreta', function(){
     });
   });
 })
+
+var creaFuncion = function() {
+  var arreglo = [];
+  for (var i=0; i < 3; i++) {
+    arreglo.push(
+      (function(j){
+        return function() {console.log(j)}
+      }(i))  // Mi duda radica aca, no entiendo cual es la funcion de la "i" en esta linea de codigo 
+    )
+  }
+  return arreglo;
+}
+var arr = creaFuncion();
+arr[0]() // 0
+arr[1]() // 1
+arr[2]() // 2
 

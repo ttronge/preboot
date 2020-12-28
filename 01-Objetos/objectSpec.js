@@ -12,6 +12,7 @@ describe('Propiedades de un object-literal', function() {
   describe('Función `setPropsOnObj`', function() {
 
     it('agrega la propiedad p con valor 5', function() {
+  
       expect(obj.p).toEqual(5);
     });
 

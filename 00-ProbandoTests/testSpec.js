@@ -1,16 +1,22 @@
-describe('Función `saludar`', function() {
+describe('Función `saludar`', function () {
   // La función saludar la tenemos que definir nosotros en nuestro archivo test.js
   // tiene que poder superar los test planteados a continuación.
   it('Debería saludar', function() {
-    // En este `spec` o test pedimos que al llamar a la función `saludar`
+    function saludar() {
+        return 'Hola!' 
+    }
     // el resultado sea igual (.toEqual) al string 'Hola!', osea que retorne 'Hola!'.
     expect(saludar()).toEqual('Hola!');
   });
 
-  it('Si recibe un parámetro debería saludar a alguien', function() {
+  it('Si recibe un parámetro debería saludar a alguien', function saludar() {
     expect(saludar('Toni')).toEqual("Hola, Toni!");
+    function saludar(persona) {
+      return 'Hola, '+ persona +"!"
+  }
+  saludar("Toni!")
   });
-});
+})
 
 describe('Función `sumar`', function(){
 

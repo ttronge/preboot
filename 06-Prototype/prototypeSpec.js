@@ -7,6 +7,7 @@ describe('Clase Mamífero', function() {
   });
 
   it('`miMamifero` es una instancia de Mamífero', function(){
+     miMamifero = new Mamifero('Manny');
     expect(Object.getPrototypeOf(miMamifero)).toEqual(Mamifero.prototype);
   });
 
