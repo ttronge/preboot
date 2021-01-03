@@ -42,7 +42,7 @@ describe('La función factorial', function() {
   });
 });
 
-// En ka secuencia de fibonacci el primer y segundo elemento
+// En la secuencia de fibonacci el primer y segundo elemento
 // son ambos igual a 1.
 
 // Cada uno de los siguientes números son la suma de los dos
